@@ -1,0 +1,5 @@
+# Ignore specific files
+whatsapp/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/
+writable/session/
+public/assets/
+whatsapp/node_modules
