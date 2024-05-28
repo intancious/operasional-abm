@@ -1,0 +1,6 @@
+2024/05/25-04:36:44.863 75e6 Reusing MANIFEST /var/www/operasionalabm.site/whatsapp/.wwebjs_auth/session-satu/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/25-04:36:44.979 75e6 Recovering log #6
+2024/05/25-04:36:45.002 75e6 Reusing old log /var/www/operasionalabm.site/whatsapp/.wwebjs_auth/session-satu/Default/Local Storage/leveldb/000006.log 
+2024/05/25-04:39:46.502 75e7 Level-0 table #9: started
+2024/05/25-04:39:46.507 75e7 Level-0 table #9: 31257 bytes OK
+2024/05/25-04:39:46.508 75e7 Delete type=0 #6

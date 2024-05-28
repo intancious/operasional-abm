@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-node-api",
-  "version": "0.0.3",
-  "description": "A NodeJS API wrapper for whatsapp-web.js",
+  "version": "1.0.0",
+  "description": "NodeJS API for WhatsApp Web",
   "main": "api.js",
   "scripts": {
     "start": "node api.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pranavms13/whatsapp-node-api.git"
+    "url": "git+https://github.com/erfandibagus/whatsapp-node-api.git"
   },
   "keywords": [
     "whatsapp-api",
@@ -17,24 +17,22 @@
     "whatsapp-web",
     "whatsapp"
   ],
-  "author": "Pranav M S",
+  "author": "Erfandi Bagus",
   "license": "CC-BY-NC",
   "bugs": {
-    "url": "https://github.com/pranavms13/whatsapp-node-api/issues"
+    "url": "https://erfandibagus.com/contact"
   },
-  "homepage": "https://github.com/pranavms13/whatsapp-node-api#readme",
+  "homepage": "https://erfandibagus.com",
   "dependencies": {
-    "axios": "^0.21.4",
-    "body-parser": "^1.19.2",
-    "child_process": "^1.0.2",
-    "express": "^4.17.3",
-    "fs": "0.0.1-security",
-    "nodemon": "^2.0.19",
-    "qrcode": "^1.5.1",
-    "qrcode-terminal": "^0.12.0",
-    "request": "^2.88.2",
-    "shelljs": "^0.8.5",
-    "valid-url": "^1.0.9",
-    "whatsapp-web.js": "https://github.com/Julzk/whatsapp-web.js/tarball/jkr_hotfix_8"
+    "axios": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "fs": "latest",
+    "nodemon": "^3.1.0",
+    "qrcode": "latest",
+    "qrcode-terminal": "latest",
+    "request": "latest",
+    "valid-url": "latest",
+    "whatsapp-web.js": "latest"
   }
 }

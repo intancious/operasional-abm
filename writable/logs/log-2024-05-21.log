@@ -1,0 +1,47 @@
+CRITICAL - 2024-05-21 07:38:12 --> Undefined offset: 0
+#0 /var/www/operasionalabm.site/app/Controllers/Dashboard.php(10008): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/var/www/operas...', 10008, Array)
+#1 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Dashboard->checkInsert()
+#2 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/operasionalabm.site/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-21 09:47:23 --> A non well formed numeric value encountered
+#0 /var/www/operasionalabm.site/app/Models/BukuBesarModel.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', '/var/www/operas...', 78, Array)
+#1 /var/www/operasionalabm.site/app/Views/dashboard/neracaSaldo.php(49): App\Models\BukuBesarModel->saldoAkhirBb('964')
+#2 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/operas...')
+#3 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('dashboard/nerac...', Array, true)
+#5 /var/www/operasionalabm.site/app/Controllers/Dashboard.php(8378): view('dashboard/nerac...', Array)
+#6 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Dashboard->neracaSaldo()
+#7 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/operasionalabm.site/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-21 09:54:18 --> Too few arguments to function App\Controllers\Dashboard::unitJson(), 0 passed in /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Dashboard->unitJson()
+#1 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/operasionalabm.site/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-21 09:54:48 --> Too few arguments to function App\Controllers\Dashboard::unitJson(), 0 passed in /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Dashboard->unitJson()
+#1 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/operasionalabm.site/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-21 10:01:51 --> unlink(/var/www/operasionalabm.site/writable/debugbar/debugbar_1716260264.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www...', '/var/www/operas...', 74, Array)
+#1 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/var/www/operas...')
+#2 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1716260510, 20)
+#3 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /var/www/operasionalabm.site/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /var/www/operasionalabm.site/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-21 10:07:19 --> Too few arguments to function App\Controllers\Dashboard::upahJson(), 0 passed in /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Dashboard->upahJson()
+#1 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /var/www/operasionalabm.site/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/operasionalabm.site/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

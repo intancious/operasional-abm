@@ -1,0 +1,20 @@
+2024/05/25-10:21:51.317 7f70 Reusing MANIFEST /var/www/operasionalabm.site/whatsapp/.wwebjs_auth/session-satu/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/25-10:21:51.335 7f70 Recovering log #8
+2024/05/25-10:21:51.335 7f70 Reusing old log /var/www/operasionalabm.site/whatsapp/.wwebjs_auth/session-satu/Default/Local Storage/leveldb/000008.log 
+2024/05/26-02:48:10.009 7f70 Level-0 table #12: started
+2024/05/26-02:48:10.013 7f70 Level-0 table #12: 12487 bytes OK
+2024/05/26-02:48:10.015 7f70 Delete type=0 #8
+2024/05/26-02:48:10.016 7f72 Compacting 4@0 + 0@1 files
+2024/05/26-02:48:10.020 7f72 Generated table #13@0: 86 keys, 13961 bytes
+2024/05/26-02:48:10.020 7f72 Compacted 4@0 + 0@1 files => 13961 bytes
+2024/05/26-02:48:10.026 7f72 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/05/26-02:48:10.026 7f72 Delete type=2 #3
+2024/05/26-02:48:10.026 7f72 Delete type=2 #12
+2024/05/26-02:48:10.026 7f72 Delete type=2 #6
+2024/05/26-02:48:10.026 7f72 Delete type=2 #9
+2024/05/27-02:54:13.211 7f72 Level-0 table #15: started
+2024/05/27-02:54:13.215 7f72 Level-0 table #15: 12225 bytes OK
+2024/05/27-02:54:13.216 7f72 Delete type=0 #11
+2024/05/27-14:14:40.483 7f72 Level-0 table #17: started
+2024/05/27-14:14:40.486 7f72 Level-0 table #17: 11820 bytes OK
+2024/05/27-14:14:40.488 7f72 Delete type=0 #14

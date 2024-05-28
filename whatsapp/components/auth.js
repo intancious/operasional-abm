@@ -1,6 +1,5 @@
 const router = require("express").Router();
 const fs = require("fs");
-// const { exec } = require("child_process");
 
 router.get("/checkauth", async (req, res) => {
     client
